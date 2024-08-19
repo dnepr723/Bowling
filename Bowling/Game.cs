@@ -9,14 +9,12 @@ namespace Bowling
     public class Game
     {
         private List<int> rolls;
-        private int currentRoll;
-        private int currentFrame;
+        private int currentRoll;        
 
         public Game()
         {
             rolls = new List<int>();
-            currentRoll = 0;
-            currentFrame = 0;
+            currentRoll = 0;           
         }
 
         // Record the number of pins knocked down
